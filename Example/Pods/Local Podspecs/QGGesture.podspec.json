@@ -1,0 +1,22 @@
+{
+  "name": "QGGesture",
+  "version": "0.1.0",
+  "summary": "A short description of QGGesture.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ikrulala/QGGesture",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ikrulala": "ikrulala@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/ikrulala/QGGesture.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QGGesture/Classes/**/*"
+}

@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015606AB37B3FB68FFFB4E60A3D0AF8F /* QGGestureInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = D04091099DEBC7663E95A325C412F8E5 /* QGGestureInvoker.m */; };
+		1BF7B97DE946A7DF96708CFC768AD606 /* Pods-QGGesture_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6771108404752FFA8D5E5516B4D236C /* Pods-QGGesture_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF86212FE9D1C40188477325E75DB0E /* UIView+QGGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 064566C08AC6FD03BD0C34AC5A23764C /* UIView+QGGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E95A4FC63CA64CC5ED3CFB169D02F0 /* Pods-QGGesture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56B5A817AFDDF946B5C7DF1CC2F0E16 /* Pods-QGGesture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F553486CFD9065B7439B00C287AF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		791CC2B2BCECBFBD19E9456559FFDD24 /* QGGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971EF62C151E211150B29193C5CB7F0 /* QGGesture-dummy.m */; };
+		90AB53CBF7A33354183886597EC137B0 /* QGGestureInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E7F5A01AF1817FA31B12B1C8405774 /* QGGestureInvoker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98DDA5D093E24D88D432393F4F0BEBF2 /* UIGestureRecognizer+QG.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA6703B0F411624B2A5259ACEF327A2 /* UIGestureRecognizer+QG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCC1D1FE384EE9AA553D3A882BE33E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ABE61999DEA4903802544D34710874FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC9DE2A634A51378477E130F0B56945F /* QGGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E47042027BC1C725C441B77865FE4A24 /* QGGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE91A45603D3C8A250217AB3F87812D /* Pods-QGGesture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F61D616D9E2360DA79573AECBA96A3 /* Pods-QGGesture_Example-dummy.m */; };
+		CCF5329189D8031C156E4E6DD0700E88 /* Pods-QGGesture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3FA8E8415DE3AC615D8B828A5F8D86 /* Pods-QGGesture_Tests-dummy.m */; };
+		D9AA39170CA842076608853FEF667E9C /* UIView+QGGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F26C9D2F2A675FE2543E6133C220E9B5 /* UIView+QGGesture.m */; };
+		F719EB7CA24C47CA83B9496004C0A15A /* UIGestureRecognizer+QG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4602500DD9BD8B973FB8D5327FE723 /* UIGestureRecognizer+QG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C42A35BB88F6D807B2404AB72EA148B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172FF98126CDE7B937787CF1E6AA8DE8;
+			remoteInfo = "Pods-QGGesture_Example";
+		};
+		5EEAC43B5307F562652809EB22ADF1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB07DBABD92F3CB62F86C67D3EF9DE4;
+			remoteInfo = QGGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064566C08AC6FD03BD0C34AC5A23764C /* UIView+QGGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+QGGesture.h"; path = "QGGesture/Classes/UIView+QGGesture.h"; sourceTree = "<group>"; };
+		0AA6703B0F411624B2A5259ACEF327A2 /* UIGestureRecognizer+QG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+QG.h"; path = "QGGesture/Classes/UIGestureRecognizer+QG.h"; sourceTree = "<group>"; };
+		0AFB30241EF748E623511C1F5A5E9C59 /* QGGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QGGesture.modulemap; sourceTree = "<group>"; };
+		0F6C67A6C93C0EDAC7D9CFC3421EC486 /* Pods_QGGesture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QGGesture_Example.framework; path = "Pods-QGGesture_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186A146270966F0DADD61636956CCE80 /* QGGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QGGesture-prefix.pch"; sourceTree = "<group>"; };
+		218683BF741AC39F6C96B67951BA8C66 /* Pods-QGGesture_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QGGesture_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F4602500DD9BD8B973FB8D5327FE723 /* UIGestureRecognizer+QG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+QG.m"; path = "QGGesture/Classes/UIGestureRecognizer+QG.m"; sourceTree = "<group>"; };
+		4202FB1AF7EF7D09F6F187C0EE6002CB /* Pods-QGGesture_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QGGesture_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4971EF62C151E211150B29193C5CB7F0 /* QGGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QGGesture-dummy.m"; sourceTree = "<group>"; };
+		52F7161919FAC79DCD1B3E3C8516D19D /* QGGesture-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QGGesture-Info.plist"; sourceTree = "<group>"; };
+		58FAE84B51DA754EA5C500B0929F1CC6 /* Pods-QGGesture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGesture_Example.release.xcconfig"; sourceTree = "<group>"; };
+		63F61D616D9E2360DA79573AECBA96A3 /* Pods-QGGesture_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QGGesture_Example-dummy.m"; sourceTree = "<group>"; };
+		6478486FDD6DD2E011B82075E818AF36 /* Pods-QGGesture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGesture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C8A37B677D7DB89B48F07CBBA61319C /* Pods-QGGesture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGesture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6EC99580A2DEADBA293E42186584DE32 /* Pods-QGGesture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QGGesture_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8086937F4E0DED829F224AFD95EFD9F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		815D3C8EB56D38223C625B28E6ADA5A9 /* Pods-QGGesture_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QGGesture_Tests.modulemap"; sourceTree = "<group>"; };
+		8D34696ED812578C326B4D780B328245 /* Pods_QGGesture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QGGesture_Tests.framework; path = "Pods-QGGesture_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9290C27D1B8A85932C6DE60326A0DB1D /* Pods-QGGesture_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGesture_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6771108404752FFA8D5E5516B4D236C /* Pods-QGGesture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QGGesture_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB3FA8E8415DE3AC615D8B828A5F8D86 /* Pods-QGGesture_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QGGesture_Tests-dummy.m"; sourceTree = "<group>"; };
+		AC1C9D735B3B72D1A82C1AC4BFDDE05A /* QGGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QGGesture.framework; path = QGGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A8372AD549CF0E9F324C6180D8913F /* QGGesture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QGGesture.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CD0D8DD6C4FF528564A9141E076A5AA5 /* Pods-QGGesture_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGesture_Tests-Info.plist"; sourceTree = "<group>"; };
+		CDB8CB1BFE26A4037256369052A27A61 /* QGGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QGGesture.release.xcconfig; sourceTree = "<group>"; };
+		D04091099DEBC7663E95A325C412F8E5 /* QGGestureInvoker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QGGestureInvoker.m; path = QGGesture/Classes/QGGestureInvoker.m; sourceTree = "<group>"; };
+		D3E7F5A01AF1817FA31B12B1C8405774 /* QGGestureInvoker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QGGestureInvoker.h; path = QGGesture/Classes/QGGestureInvoker.h; sourceTree = "<group>"; };
+		E47042027BC1C725C441B77865FE4A24 /* QGGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QGGesture-umbrella.h"; sourceTree = "<group>"; };
+		E56597589ED7140FC89AB3AF962274D8 /* Pods-QGGesture_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGesture_Example-Info.plist"; sourceTree = "<group>"; };
+		E6FBC56EDEACF60DBF41DE45BFA9EE8F /* QGGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QGGesture.debug.xcconfig; sourceTree = "<group>"; };
+		E752FD631543D686E0257C37CEB4C67F /* Pods-QGGesture_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QGGesture_Example.modulemap"; sourceTree = "<group>"; };
+		F1586E7BC674F3D8446DB08BD3141FFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F26C9D2F2A675FE2543E6133C220E9B5 /* UIView+QGGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+QGGesture.m"; path = "QGGesture/Classes/UIView+QGGesture.m"; sourceTree = "<group>"; };
+		F31FAEC611623D2ED3323481D65C368D /* Pods-QGGesture_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QGGesture_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F56B5A817AFDDF946B5C7DF1CC2F0E16 /* Pods-QGGesture_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QGGesture_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F8A15B4134EE15FDC8BCAD94054F918D /* Pods-QGGesture_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QGGesture_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6612B16CDBDB88D09478FF4B10434A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCC1D1FE384EE9AA553D3A882BE33E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA373E032A9E04A3624FE3452ED2E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE61999DEA4903802544D34710874FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9D84189C4E2998D694DFF32E8E895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F553486CFD9065B7439B00C287AF3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25AC7079C78889A8F3D9FAD201480E2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB30241EF748E623511C1F5A5E9C59 /* QGGesture.modulemap */,
+				4971EF62C151E211150B29193C5CB7F0 /* QGGesture-dummy.m */,
+				52F7161919FAC79DCD1B3E3C8516D19D /* QGGesture-Info.plist */,
+				186A146270966F0DADD61636956CCE80 /* QGGesture-prefix.pch */,
+				E47042027BC1C725C441B77865FE4A24 /* QGGesture-umbrella.h */,
+				E6FBC56EDEACF60DBF41DE45BFA9EE8F /* QGGesture.debug.xcconfig */,
+				CDB8CB1BFE26A4037256369052A27A61 /* QGGesture.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QGGesture";
+			sourceTree = "<group>";
+		};
+		4E854D174F8FE81DBAAFF4CA699F819C /* Pods-QGGesture_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E752FD631543D686E0257C37CEB4C67F /* Pods-QGGesture_Example.modulemap */,
+				4202FB1AF7EF7D09F6F187C0EE6002CB /* Pods-QGGesture_Example-acknowledgements.markdown */,
+				F8A15B4134EE15FDC8BCAD94054F918D /* Pods-QGGesture_Example-acknowledgements.plist */,
+				63F61D616D9E2360DA79573AECBA96A3 /* Pods-QGGesture_Example-dummy.m */,
+				F31FAEC611623D2ED3323481D65C368D /* Pods-QGGesture_Example-frameworks.sh */,
+				E56597589ED7140FC89AB3AF962274D8 /* Pods-QGGesture_Example-Info.plist */,
+				A6771108404752FFA8D5E5516B4D236C /* Pods-QGGesture_Example-umbrella.h */,
+				6EC99580A2DEADBA293E42186584DE32 /* Pods-QGGesture_Example.debug.xcconfig */,
+				58FAE84B51DA754EA5C500B0929F1CC6 /* Pods-QGGesture_Example.release.xcconfig */,
+			);
+			name = "Pods-QGGesture_Example";
+			path = "Target Support Files/Pods-QGGesture_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95150EAD9F59D3CC15783CF41032B91F /* Pods-QGGesture_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				815D3C8EB56D38223C625B28E6ADA5A9 /* Pods-QGGesture_Tests.modulemap */,
+				218683BF741AC39F6C96B67951BA8C66 /* Pods-QGGesture_Tests-acknowledgements.markdown */,
+				9290C27D1B8A85932C6DE60326A0DB1D /* Pods-QGGesture_Tests-acknowledgements.plist */,
+				AB3FA8E8415DE3AC615D8B828A5F8D86 /* Pods-QGGesture_Tests-dummy.m */,
+				CD0D8DD6C4FF528564A9141E076A5AA5 /* Pods-QGGesture_Tests-Info.plist */,
+				F56B5A817AFDDF946B5C7DF1CC2F0E16 /* Pods-QGGesture_Tests-umbrella.h */,
+				6478486FDD6DD2E011B82075E818AF36 /* Pods-QGGesture_Tests.debug.xcconfig */,
+				6C8A37B677D7DB89B48F07CBBA61319C /* Pods-QGGesture_Tests.release.xcconfig */,
+			);
+			name = "Pods-QGGesture_Tests";
+			path = "Target Support Files/Pods-QGGesture_Tests";
+			sourceTree = "<group>";
+		};
+		AF6730285FB92D4E15E7550C8AD7555D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11610A4BA1C9A57BD3798173ED78774 /* QGGesture */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0E4B41E2250091DA298608F6B80F51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C67A6C93C0EDAC7D9CFC3421EC486 /* Pods_QGGesture_Example.framework */,
+				8D34696ED812578C326B4D780B328245 /* Pods_QGGesture_Tests.framework */,
+				AC1C9D735B3B72D1A82C1AC4BFDDE05A /* QGGesture.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AF6730285FB92D4E15E7550C8AD7555D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C0E4B41E2250091DA298608F6B80F51F /* Products */,
+				D830B26257F0478C63BA663826EDEB72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D11610A4BA1C9A57BD3798173ED78774 /* QGGesture */ = {
+			isa = PBXGroup;
+			children = (
+				D3E7F5A01AF1817FA31B12B1C8405774 /* QGGestureInvoker.h */,
+				D04091099DEBC7663E95A325C412F8E5 /* QGGestureInvoker.m */,
+				0AA6703B0F411624B2A5259ACEF327A2 /* UIGestureRecognizer+QG.h */,
+				2F4602500DD9BD8B973FB8D5327FE723 /* UIGestureRecognizer+QG.m */,
+				064566C08AC6FD03BD0C34AC5A23764C /* UIView+QGGesture.h */,
+				F26C9D2F2A675FE2543E6133C220E9B5 /* UIView+QGGesture.m */,
+				EFD956AB70888A90D9691A7C8BF1DED1 /* Pod */,
+				25AC7079C78889A8F3D9FAD201480E2D /* Support Files */,
+			);
+			name = QGGesture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D830B26257F0478C63BA663826EDEB72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E854D174F8FE81DBAAFF4CA699F819C /* Pods-QGGesture_Example */,
+				95150EAD9F59D3CC15783CF41032B91F /* Pods-QGGesture_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EFD956AB70888A90D9691A7C8BF1DED1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F1586E7BC674F3D8446DB08BD3141FFB /* LICENSE */,
+				B2A8372AD549CF0E9F324C6180D8913F /* QGGesture.podspec */,
+				8086937F4E0DED829F224AFD95EFD9F7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A432E95C7ED07EA8C9BDF158F841643 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E95A4FC63CA64CC5ED3CFB169D02F0 /* Pods-QGGesture_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7466850A321FE5871788AB0E6F85EF00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9DE2A634A51378477E130F0B56945F /* QGGesture-umbrella.h in Headers */,
+				90AB53CBF7A33354183886597EC137B0 /* QGGestureInvoker.h in Headers */,
+				98DDA5D093E24D88D432393F4F0BEBF2 /* UIGestureRecognizer+QG.h in Headers */,
+				4EF86212FE9D1C40188477325E75DB0E /* UIView+QGGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A475CB7633332815DFDE02E7B25DCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF7B97DE946A7DF96708CFC768AD606 /* Pods-QGGesture_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		172FF98126CDE7B937787CF1E6AA8DE8 /* Pods-QGGesture_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE6D67790D9B40C5A25D35A3F4084E3 /* Build configuration list for PBXNativeTarget "Pods-QGGesture_Example" */;
+			buildPhases = (
+				F2A475CB7633332815DFDE02E7B25DCB /* Headers */,
+				C384CB1A2155FAB9244F0D8FA714DD43 /* Sources */,
+				D3D9D84189C4E2998D694DFF32E8E895 /* Frameworks */,
+				E9436F3B19AFE4FAA606769E4BD55800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75B5BC0163DF515F4F8A56A1F4CA51EE /* PBXTargetDependency */,
+			);
+			name = "Pods-QGGesture_Example";
+			productName = "Pods-QGGesture_Example";
+			productReference = 0F6C67A6C93C0EDAC7D9CFC3421EC486 /* Pods_QGGesture_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3B6268B19C513628FD2D392A598828E /* Pods-QGGesture_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD5CF5BAC8BB27D83881A34166C4B3C /* Build configuration list for PBXNativeTarget "Pods-QGGesture_Tests" */;
+			buildPhases = (
+				6A432E95C7ED07EA8C9BDF158F841643 /* Headers */,
+				36ECF902CA480C69446BB3423928CB4A /* Sources */,
+				8CA373E032A9E04A3624FE3452ED2E16 /* Frameworks */,
+				D61729AE72E9B2BE96126B8AA2ACCA3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EA6EBEA9EC1C13BF1DB62CBE1BF34FF /* PBXTargetDependency */,
+			);
+			name = "Pods-QGGesture_Tests";
+			productName = "Pods-QGGesture_Tests";
+			productReference = 8D34696ED812578C326B4D780B328245 /* Pods_QGGesture_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDB07DBABD92F3CB62F86C67D3EF9DE4 /* QGGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B03A439CA4A09C8846881DB961AE75D6 /* Build configuration list for PBXNativeTarget "QGGesture" */;
+			buildPhases = (
+				7466850A321FE5871788AB0E6F85EF00 /* Headers */,
+				F8249D06320F642B1677FDA2615BE5EE /* Sources */,
+				6612B16CDBDB88D09478FF4B10434A31 /* Frameworks */,
+				124BB57702823948195080629B4DF291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGGesture;
+			productName = QGGesture;
+			productReference = AC1C9D735B3B72D1A82C1AC4BFDDE05A /* QGGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C0E4B41E2250091DA298608F6B80F51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172FF98126CDE7B937787CF1E6AA8DE8 /* Pods-QGGesture_Example */,
+				D3B6268B19C513628FD2D392A598828E /* Pods-QGGesture_Tests */,
+				EDB07DBABD92F3CB62F86C67D3EF9DE4 /* QGGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124BB57702823948195080629B4DF291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61729AE72E9B2BE96126B8AA2ACCA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9436F3B19AFE4FAA606769E4BD55800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36ECF902CA480C69446BB3423928CB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF5329189D8031C156E4E6DD0700E88 /* Pods-QGGesture_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C384CB1A2155FAB9244F0D8FA714DD43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE91A45603D3C8A250217AB3F87812D /* Pods-QGGesture_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8249D06320F642B1677FDA2615BE5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791CC2B2BCECBFBD19E9456559FFDD24 /* QGGesture-dummy.m in Sources */,
+				015606AB37B3FB68FFFB4E60A3D0AF8F /* QGGestureInvoker.m in Sources */,
+				F719EB7CA24C47CA83B9496004C0A15A /* UIGestureRecognizer+QG.m in Sources */,
+				D9AA39170CA842076608853FEF667E9C /* UIView+QGGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75B5BC0163DF515F4F8A56A1F4CA51EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QGGesture;
+			target = EDB07DBABD92F3CB62F86C67D3EF9DE4 /* QGGesture */;
+			targetProxy = 5EEAC43B5307F562652809EB22ADF1F4 /* PBXContainerItemProxy */;
+		};
+		8EA6EBEA9EC1C13BF1DB62CBE1BF34FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QGGesture_Example";
+			target = 172FF98126CDE7B937787CF1E6AA8DE8 /* Pods-QGGesture_Example */;
+			targetProxy = 0C42A35BB88F6D807B2404AB72EA148B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26AC15E98A741DF326ED7CEBA754FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB8CB1BFE26A4037256369052A27A61 /* QGGesture.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QGGesture/QGGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QGGesture/QGGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QGGesture/QGGesture.modulemap";
+				PRODUCT_MODULE_NAME = QGGesture;
+				PRODUCT_NAME = QGGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E378B634D1541E94C7059F3E3CCBB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FBC56EDEACF60DBF41DE45BFA9EE8F /* QGGesture.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QGGesture/QGGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QGGesture/QGGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QGGesture/QGGesture.modulemap";
+				PRODUCT_MODULE_NAME = QGGesture;
+				PRODUCT_NAME = QGGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A0924DECA46BEF17EF09DF2070B0983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC99580A2DEADBA293E42186584DE32 /* Pods-QGGesture_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QGGesture_Example/Pods-QGGesture_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QGGesture_Example/Pods-QGGesture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		867C255AFC75BA487FEC13D65A162215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8A37B677D7DB89B48F07CBBA61319C /* Pods-QGGesture_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QGGesture_Tests/Pods-QGGesture_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QGGesture_Tests/Pods-QGGesture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9825644F05C64CEA0DAFD8133FCCBA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FAE84B51DA754EA5C500B0929F1CC6 /* Pods-QGGesture_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QGGesture_Example/Pods-QGGesture_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QGGesture_Example/Pods-QGGesture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EE0DFE0C95E5262102DAA1AC802CF7BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6478486FDD6DD2E011B82075E818AF36 /* Pods-QGGesture_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QGGesture_Tests/Pods-QGGesture_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QGGesture_Tests/Pods-QGGesture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE6D67790D9B40C5A25D35A3F4084E3 /* Build configuration list for PBXNativeTarget "Pods-QGGesture_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0924DECA46BEF17EF09DF2070B0983 /* Debug */,
+				9825644F05C64CEA0DAFD8133FCCBA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD5CF5BAC8BB27D83881A34166C4B3C /* Build configuration list for PBXNativeTarget "Pods-QGGesture_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0DFE0C95E5262102DAA1AC802CF7BC /* Debug */,
+				867C255AFC75BA487FEC13D65A162215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B03A439CA4A09C8846881DB961AE75D6 /* Build configuration list for PBXNativeTarget "QGGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E378B634D1541E94C7059F3E3CCBB65 /* Debug */,
+				26AC15E98A741DF326ED7CEBA754FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

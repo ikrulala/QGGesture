@@ -1,0 +1,16 @@
+PODS:
+  - QGGesture (0.1.0)
+
+DEPENDENCIES:
+  - QGGesture (from `../`)
+
+EXTERNAL SOURCES:
+  QGGesture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QGGesture: add4583c58a34e684382f600c57fe9247fa4f122
+
+PODFILE CHECKSUM: 347fe6a75abe7adc04dd3f64473d3c24c7474aa3
+
+COCOAPODS: 1.10.1
